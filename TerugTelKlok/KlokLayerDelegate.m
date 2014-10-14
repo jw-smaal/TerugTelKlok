@@ -8,7 +8,7 @@
 
 #import "KlokLayerDelegate.h"
 
-#define KLOKVIEW_DEBUGGING 0 
+#define KLOKVIEW_DEBUGGING 1 
 
 @implementation KlokLayerDelegate
 

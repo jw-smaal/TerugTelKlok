@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 
-#define MAINVIEW_DEBUGGING 0
+#define MAINVIEW_DEBUGGING 1
 @implementation MainViewController
 
 // Model
@@ -187,7 +187,8 @@
 {
     //
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
-        [[segue destinationViewController] setDelegate:self];
+        [[segue destinationViewController] setDelegate:(id)self];
+        
         
         // Voor de ipad de popovercontroller gebruiken. 
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
