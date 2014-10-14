@@ -2,7 +2,7 @@
 //  HuidigeTijdModel.h
 //  TerugTelKlok
 //
-//  Created by Jan-Willem Smaal on 1/3/12.
+//  Created by Jan-Willem Smaal on 1/3/13.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
