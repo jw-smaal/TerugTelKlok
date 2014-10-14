@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230209D014B1A2C00078ADCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230209CF14B1A2C00078ADCC /* QuartzCore.framework */; };
+		2351C9C814AA60F800BC1446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2351C9C714AA60F800BC1446 /* UIKit.framework */; };
+		2351C9CA14AA60F800BC1446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2351C9C914AA60F800BC1446 /* Foundation.framework */; };
+		2351C9CC14AA60F800BC1446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2351C9CB14AA60F800BC1446 /* CoreGraphics.framework */; };
+		2351C9D214AA60F800BC1446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2351C9D014AA60F800BC1446 /* InfoPlist.strings */; };
+		2351C9D414AA60F800BC1446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351C9D314AA60F800BC1446 /* main.m */; };
+		2351C9D814AA60F800BC1446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351C9D714AA60F800BC1446 /* AppDelegate.m */; };
+		2351C9DB14AA60F800BC1446 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2351C9D914AA60F800BC1446 /* MainStoryboard_iPhone.storyboard */; };
+		2351C9DE14AA60F800BC1446 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2351C9DC14AA60F800BC1446 /* MainStoryboard_iPad.storyboard */; };
+		2351C9E114AA60F800BC1446 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351C9E014AA60F800BC1446 /* MainViewController.m */; };
+		2351C9E414AA60F800BC1446 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351C9E314AA60F800BC1446 /* FlipsideViewController.m */; };
+		2351CA0414AA6D5F00BC1446 /* TerugTelTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351CA0314AA6D5F00BC1446 /* TerugTelTimerModel.m */; };
+		23563BEF15AC6D7C008661DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23563BEE15AC6D7C008661DE /* AudioToolbox.framework */; };
+		2358D9701683513800B01F65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2358D96F1683513800B01F65 /* Default-568h@2x.png */; };
+		23A0E67914B206F9001AA6BA /* alarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23A0E67814B206F9001AA6BA /* alarm.caf */; };
+		23B10B9F18342D4000915235 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B10B9E18342D4000915235 /* Images.xcassets */; };
+		23B2870814B2EA8F00D091C4 /* HuidigeTijdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B2870714B2EA8F00D091C4 /* HuidigeTijdModel.m */; };
+		23D18B2114B6FB2D00A0753E /* KlokLayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D18B2014B6FB2D00A0753E /* KlokLayerDelegate.m */; };
+		23D8C5D615794F43004B23DD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D8C5D515794F43004B23DD /* Icon.png */; };
+		23D8C5D815794F5E004B23DD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D8C5D715794F5E004B23DD /* Icon-72.png */; };
+		23D8C5DA15794F62004B23DD /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D8C5D915794F62004B23DD /* Icon-72@2x.png */; };
+		23D8C5DC15794F91004B23DD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D8C5DB15794F91004B23DD /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230209CF14B1A2C00078ADCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2330909C1586575E0070F5A0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2330909D158657680070F5A0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2351C9C314AA60F800BC1446 /* TijdsBegrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TijdsBegrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2351C9C714AA60F800BC1446 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2351C9C914AA60F800BC1446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2351C9CB14AA60F800BC1446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2351C9CF14AA60F800BC1446 /* TerugTelKlok-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TerugTelKlok-Info.plist"; sourceTree = "<group>"; };
+		2351C9D114AA60F800BC1446 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2351C9D314AA60F800BC1446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2351C9D514AA60F800BC1446 /* TerugTelKlok-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TerugTelKlok-Prefix.pch"; sourceTree = "<group>"; };
+		2351C9D614AA60F800BC1446 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2351C9D714AA60F800BC1446 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2351C9DA14AA60F800BC1446 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2351C9DD14AA60F800BC1446 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2351C9DF14AA60F800BC1446 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2351C9E014AA60F800BC1446 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2351C9E214AA60F800BC1446 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		2351C9E314AA60F800BC1446 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		2351C9EB14AA60F800BC1446 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2351CA0214AA6D5F00BC1446 /* TerugTelTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerugTelTimerModel.h; sourceTree = "<group>"; };
+		2351CA0314AA6D5F00BC1446 /* TerugTelTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerugTelTimerModel.m; sourceTree = "<group>"; };
+		23563BEE15AC6D7C008661DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2358D96F1683513800B01F65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		23A0E67814B206F9001AA6BA /* alarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm.caf; sourceTree = "<group>"; };
+		23A0E68014B2078D001AA6BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		23B10B9E18342D4000915235 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TijdsBegrip/Images.xcassets; sourceTree = "<group>"; };
+		23B2870614B2EA8F00D091C4 /* HuidigeTijdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuidigeTijdModel.h; sourceTree = "<group>"; };
+		23B2870714B2EA8F00D091C4 /* HuidigeTijdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuidigeTijdModel.m; sourceTree = "<group>"; };
+		23D18B1F14B6FB2D00A0753E /* KlokLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlokLayerDelegate.h; sourceTree = "<group>"; };
+		23D18B2014B6FB2D00A0753E /* KlokLayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KlokLayerDelegate.m; sourceTree = "<group>"; };
+		23D8C5D515794F43004B23DD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		23D8C5D715794F5E004B23DD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		23D8C5D915794F62004B23DD /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		23D8C5DB15794F91004B23DD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2351C9C014AA60F800BC1446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23563BEF15AC6D7C008661DE /* AudioToolbox.framework in Frameworks */,
+				230209D014B1A2C00078ADCC /* QuartzCore.framework in Frameworks */,
+				2351C9C814AA60F800BC1446 /* UIKit.framework in Frameworks */,
+				2351C9CA14AA60F800BC1446 /* Foundation.framework in Frameworks */,
+				2351C9CC14AA60F800BC1446 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2319CADD14ABBC8C00D02FEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23B2870614B2EA8F00D091C4 /* HuidigeTijdModel.h */,
+				23B2870714B2EA8F00D091C4 /* HuidigeTijdModel.m */,
+				2351CA0214AA6D5F00BC1446 /* TerugTelTimerModel.h */,
+				2351CA0314AA6D5F00BC1446 /* TerugTelTimerModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2319CADF14ABBC9B00D02FEF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2351C9D914AA60F800BC1446 /* MainStoryboard_iPhone.storyboard */,
+				2351C9DC14AA60F800BC1446 /* MainStoryboard_iPad.storyboard */,
+				23D18B1F14B6FB2D00A0753E /* KlokLayerDelegate.h */,
+				23D18B2014B6FB2D00A0753E /* KlokLayerDelegate.m */,
+				2351C9DF14AA60F800BC1446 /* MainViewController.h */,
+				2351C9E014AA60F800BC1446 /* MainViewController.m */,
+				2351C9E214AA60F800BC1446 /* FlipsideViewController.h */,
+				2351C9E314AA60F800BC1446 /* FlipsideViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2351C9B814AA60F800BC1446 = {
+			isa = PBXGroup;
+			children = (
+				23B10B9E18342D4000915235 /* Images.xcassets */,
+				2358D96F1683513800B01F65 /* Default-568h@2x.png */,
+				23D8C5DB15794F91004B23DD /* Icon@2x.png */,
+				23D8C5D915794F62004B23DD /* Icon-72@2x.png */,
+				23D8C5D715794F5E004B23DD /* Icon-72.png */,
+				23D8C5D515794F43004B23DD /* Icon.png */,
+				2351C9CD14AA60F800BC1446 /* TerugTelKlok */,
+				2351C9C614AA60F800BC1446 /* Frameworks */,
+				2351C9C414AA60F800BC1446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2351C9C414AA60F800BC1446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2351C9C314AA60F800BC1446 /* TijdsBegrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2351C9C614AA60F800BC1446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23563BEE15AC6D7C008661DE /* AudioToolbox.framework */,
+				23A0E68014B2078D001AA6BA /* AVFoundation.framework */,
+				230209CF14B1A2C00078ADCC /* QuartzCore.framework */,
+				2351C9C714AA60F800BC1446 /* UIKit.framework */,
+				2351C9C914AA60F800BC1446 /* Foundation.framework */,
+				2351C9CB14AA60F800BC1446 /* CoreGraphics.framework */,
+				2351C9EB14AA60F800BC1446 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2351C9CD14AA60F800BC1446 /* TerugTelKlok */ = {
+			isa = PBXGroup;
+			children = (
+				2351C9D614AA60F800BC1446 /* AppDelegate.h */,
+				2351C9D714AA60F800BC1446 /* AppDelegate.m */,
+				2319CADD14ABBC8C00D02FEF /* Models */,
+				2319CADF14ABBC9B00D02FEF /* ViewControllers */,
+				239A4CDB14B327AE00E48419 /* AudioFiles */,
+				2351C9CE14AA60F800BC1446 /* Supporting Files */,
+			);
+			path = TerugTelKlok;
+			sourceTree = "<group>";
+		};
+		2351C9CE14AA60F800BC1446 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2351C9CF14AA60F800BC1446 /* TerugTelKlok-Info.plist */,
+				2351C9D014AA60F800BC1446 /* InfoPlist.strings */,
+				2351C9D314AA60F800BC1446 /* main.m */,
+				2351C9D514AA60F800BC1446 /* TerugTelKlok-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		239A4CDB14B327AE00E48419 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				23A0E67814B206F9001AA6BA /* alarm.caf */,
+			);
+			name = AudioFiles;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2351C9C214AA60F800BC1446 /* TijdsBegrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2351C9FC14AA60F800BC1446 /* Build configuration list for PBXNativeTarget "TijdsBegrip" */;
+			buildPhases = (
+				2351C9BF14AA60F800BC1446 /* Sources */,
+				2351C9C014AA60F800BC1446 /* Frameworks */,
+				2351C9C114AA60F800BC1446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TijdsBegrip;
+			productName = TerugTelKlok;
+			productReference = 2351C9C314AA60F800BC1446 /* TijdsBegrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2351C9BA14AA60F800BC1446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					2351C9C214AA60F800BC1446 = {
+						DevelopmentTeam = D2AK44RP7H;
+					};
+				};
+			};
+			buildConfigurationList = 2351C9BD14AA60F800BC1446 /* Build configuration list for PBXProject "TerugTelKlok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				nl,
+			);
+			mainGroup = 2351C9B814AA60F800BC1446;
+			productRefGroup = 2351C9C414AA60F800BC1446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2351C9C214AA60F800BC1446 /* TijdsBegrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2351C9C114AA60F800BC1446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2351C9D214AA60F800BC1446 /* InfoPlist.strings in Resources */,
+				23B10B9F18342D4000915235 /* Images.xcassets in Resources */,
+				2351C9DB14AA60F800BC1446 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2351C9DE14AA60F800BC1446 /* MainStoryboard_iPad.storyboard in Resources */,
+				23A0E67914B206F9001AA6BA /* alarm.caf in Resources */,
+				23D8C5D615794F43004B23DD /* Icon.png in Resources */,
+				23D8C5D815794F5E004B23DD /* Icon-72.png in Resources */,
+				23D8C5DA15794F62004B23DD /* Icon-72@2x.png in Resources */,
+				23D8C5DC15794F91004B23DD /* Icon@2x.png in Resources */,
+				2358D9701683513800B01F65 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2351C9BF14AA60F800BC1446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2351C9D414AA60F800BC1446 /* main.m in Sources */,
+				2351C9D814AA60F800BC1446 /* AppDelegate.m in Sources */,
+				2351C9E114AA60F800BC1446 /* MainViewController.m in Sources */,
+				2351C9E414AA60F800BC1446 /* FlipsideViewController.m in Sources */,
+				2351CA0414AA6D5F00BC1446 /* TerugTelTimerModel.m in Sources */,
+				23B2870814B2EA8F00D091C4 /* HuidigeTijdModel.m in Sources */,
+				23D18B2114B6FB2D00A0753E /* KlokLayerDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2351C9D014AA60F800BC1446 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2351C9D114AA60F800BC1446 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2351C9D914AA60F800BC1446 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2351C9DA14AA60F800BC1446 /* en */,
+				2330909D158657680070F5A0 /* nl */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2351C9DC14AA60F800BC1446 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2351C9DD14AA60F800BC1446 /* en */,
+				2330909C1586575E0070F5A0 /* nl */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2351C9FA14AA60F800BC1446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Communicatie VolZin (D2AK44RP7H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Communicatie VolZin (D2AK44RP7H)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9BA3EACA-574A-4A03-A71B-DC02E34F0ED2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9BA3EACA-574A-4A03-A71B-DC02E34F0ED2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2351C9FB14AA60F800BC1446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Communicatie VolZin (D2AK44RP7H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Communicatie VolZin (D2AK44RP7H)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9BA3EACA-574A-4A03-A71B-DC02E34F0ED2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9BA3EACA-574A-4A03-A71B-DC02E34F0ED2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2351C9FD14AA60F800BC1446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TerugTelKlok/TerugTelKlok-Prefix.pch";
+				INFOPLIST_FILE = "TerugTelKlok/TerugTelKlok-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = TijdsBegrip;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2351C9FE14AA60F800BC1446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TerugTelKlok/TerugTelKlok-Prefix.pch";
+				INFOPLIST_FILE = "TerugTelKlok/TerugTelKlok-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = TijdsBegrip;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2351C9BD14AA60F800BC1446 /* Build configuration list for PBXProject "TerugTelKlok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2351C9FA14AA60F800BC1446 /* Debug */,
+				2351C9FB14AA60F800BC1446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2351C9FC14AA60F800BC1446 /* Build configuration list for PBXNativeTarget "TijdsBegrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2351C9FD14AA60F800BC1446 /* Debug */,
+				2351C9FE14AA60F800BC1446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2351C9BA14AA60F800BC1446 /* Project object */;
+}
