@@ -267,8 +267,10 @@
 
 -(NSDateComponents *) DateComponentsForKlokLayer:(KlokLayerDelegate *)requestor 
 {
-	NSCalendar *tempCal =[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-	NSDateComponents *dateComp = [tempCal components:NSHourCalendarUnit|NSMinuteCalendarUnit fromDate:huidigetijdmodel.huidigeTijd];
+	NSCalendar *tempCal =[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    
+    
+	NSDateComponents *dateComp = [tempCal components:NSCalendarUnitHour|NSCalendarUnitMinute fromDate:huidigetijdmodel.huidigeTijd];
 	//NSLog(@"DateComponentsForKlokView: %@", dateComp);	
 	return dateComp;
 }
@@ -276,15 +278,15 @@
 
 -(NSDateComponents *) DateComponentsAlarmTijdForKlokLayer:(KlokLayerDelegate *)requestor 
 {
-	NSCalendar *tempCal =[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+	NSCalendar *tempCal =[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
 	// FIXME ???
     if (klokmodel.alarmTijd == nil ) {
-        NSDateComponents *dateComp = [tempCal components:NSHourCalendarUnit|NSMinuteCalendarUnit fromDate:huidigetijdmodel.huidigeTijd];
+        NSDateComponents *dateComp = [tempCal components:NSCalendarUnitHour|NSCalendarUnitMinute fromDate:huidigetijdmodel.huidigeTijd];
         return dateComp;
         
     }
     else {
-        NSDateComponents *dateComp = [tempCal components:NSHourCalendarUnit|NSMinuteCalendarUnit fromDate:klokmodel.alarmTijd];
+        NSDateComponents *dateComp = [tempCal components:NSCalendarUnitHour|NSCalendarUnitMinute fromDate:klokmodel.alarmTijd];
         return dateComp;
     }
 	//NSLog(@"DateComponentsForKlokView: %@", dateComp);
