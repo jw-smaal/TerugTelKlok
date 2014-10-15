@@ -64,7 +64,7 @@ static TerugTelTimerModel *singletonKlokModel = nil;
 }
 
 
--(id)init
+-(instancetype)init
 {
 	self = [super init];
 	if(self){

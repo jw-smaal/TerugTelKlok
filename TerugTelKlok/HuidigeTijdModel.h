@@ -32,8 +32,9 @@
 
 
 // Instance methods
--(id)initWithTimerInterval:(float)interval;
--(NSString *)description;
+//-(instancetype)initWithTimerInterval:(float)interval NS_DESIGNATED_INITIALIZER;
+-(instancetype)initWithTimerInterval:(float)interval;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *description;
 
 -(void)Tik;
 
