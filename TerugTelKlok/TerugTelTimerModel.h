@@ -46,7 +46,7 @@
 // If you want to use a single global alarm use this singleton class method. 
 + (TerugTelTimerModel*)SingletonKlokModel;
 
--(NSString *)description;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *description;
 
 -(void)Start;
 -(void)Stop;

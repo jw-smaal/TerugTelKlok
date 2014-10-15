@@ -17,7 +17,11 @@ static HuidigeTijdModel *singletonHuidigeTijdModel = nil;
 @synthesize dateFormatter;
 
 #pragma mark - Constructors
--(id)init
+
+
+
+
+-(instancetype)init
 {
 	self = [super init];
 	if(self){
@@ -62,7 +66,7 @@ static HuidigeTijdModel *singletonHuidigeTijdModel = nil;
 }
 
 
--(id)initWithTimerInterval:(float)interval
+-(instancetype)initWithTimerInterval:(float)interval
 {
 	self = [super init];
 	if(self){
